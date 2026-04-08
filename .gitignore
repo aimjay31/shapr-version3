@@ -1,0 +1,66 @@
+# =========================
+# Django / Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+*.sqlite3
+db.sqlite3
+
+*.log
+
+# Django stuff
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+media/
+
+# Migrations (optional: keep if you want to track schema)
+# migrations/
+# __pycache__/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Mac / Windows system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Django static files (optional)
+# =========================
+staticfiles/
+
+# =========================
+# Logs / debug
+# =========================
+*.log
+
+# =========================
+# Node (if you add frontend later)
+# =========================
+node_modules/
+dist/
+build/
